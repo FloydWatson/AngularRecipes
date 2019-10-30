@@ -9,7 +9,7 @@ export class AppComponent {
   // home route
   loadedFeature = 'recipe';
 
-  // recieveing event from header
+  // recieveing event from header. this is navigation
   onNavigate(feature: string) {
     this.loadedFeature = feature;
   }
