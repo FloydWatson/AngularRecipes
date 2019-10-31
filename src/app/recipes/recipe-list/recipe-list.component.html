@@ -8,8 +8,7 @@
   <div class="col-xs-12">
     <!-- RecipeEl refer to the current element/indexed recipe. [recipe] refers to binded in recipe list. data passed from recipe list to recipe item, [recipeSelected] refers to variable passed from recipe item -->
     <app-recipe-item *ngFor="let recipeEl of recipes"
-    [recipe]="recipeEl"
-    (recipeSelected)="onRecipeSelected(recipeEl)"></app-recipe-item>
+    [recipe]="recipeEl"></app-recipe-item>
   </div>
 </div>
 
